@@ -8,7 +8,7 @@ pub fn build(b: *std.Build) void {
     const target = b.standardTargetOptions(.{});
     const optimize = b.standardOptimizeOption(.{});
 
-    b.installArtifact(b.dependency("tree-sitter", .{
+    b.installArtifact(b.dependency("tree_sitter", .{
         .target = target,
         .optimize = optimize,
     }).artifact("tree-sitter"));

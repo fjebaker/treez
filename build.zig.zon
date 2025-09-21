@@ -4,9 +4,9 @@
     .version = "0.1.0",
 
     .dependencies = .{
-        .@"tree-sitter" = .{
-            .url = "https://github.com/tree-sitter/tree-sitter/archive/31b9717ca3d674d6166f8e4aa17e7927b027c1e1.tar.gz",
-            .hash = "tree_sitter-0.26.0-Tw2sR3C5CwBpi7K_Vn9EkVcnPXZegnJ6H0F8WANJhnKB",
+        .tree_sitter = .{
+            .url = "git+https://github.com/tree-sitter/tree-sitter/#c89e40f0086ac094da467f61d3130c8a43cd212a",
+            .hash = "tree_sitter-0.26.0-Tw2sR-OmCwCrOs5XQk7tIRnndsDDQ3RyqGWYwip1jt8Z",
         },
     },
 
